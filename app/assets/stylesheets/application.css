@@ -17,6 +17,20 @@ p {
   margin: 33px;
 }
 
+table {
+    display: table;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
